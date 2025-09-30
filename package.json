@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/mongoose-zod-schema-builder.git"
+    "url": "git+https://github.com/arnav14-dev/mongoose-zod-schema-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/mongoose-zod-schema-builder/issues"
+    "url": "https://github.com/arnav14-dev/mongoose-zod-schema-builder/issues"
   },
-  "homepage": "https://github.com/yourusername/mongoose-zod-schema-builder#readme",
+  "homepage": "https://github.com/arnav14-dev/mongoose-zod-schema-builder#readme",
   "files": [
     "index.js",
     "src/",
