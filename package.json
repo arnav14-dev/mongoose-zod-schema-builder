@@ -1,0 +1,52 @@
+{
+  "name": "mongoose-zod-schema-builder",
+  "version": "1.0.0",
+  "description": "Generate both Mongoose and Zod schemas from a single source of truth. Solve DRY principle in full-stack applications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "mongoose",
+    "zod",
+    "schema",
+    "validation",
+    "mongodb",
+    "api",
+    "typescript",
+    "nodejs",
+    "express",
+    "dto",
+    "dry"
+  ],
+  "author": "Arnav Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.18.3",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mongoose-zod-schema-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mongoose-zod-schema-builder/issues"
+  },
+  "homepage": "https://github.com/yourusername/mongoose-zod-schema-builder#readme",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md"
+  ]
+}
