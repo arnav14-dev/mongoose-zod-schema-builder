@@ -306,7 +306,7 @@ const schema = {
         required: true,
         minLength: 8
         // Auto-generates: "password must be at least 8 characters long"
-        // Plus default password regex with: "password must contain at least one lowercase letter, one uppercase letter, one number, and one special character"
+        // Plus default password regex with: "password must contain at least one lowercase letter, one uppercase letter, one number, and one special character (multiple special characters and numbers are allowed)"
     },
     phone: {
         type: 'String',
