@@ -1,6 +1,6 @@
 {
   "name": "mongoose-zod-schema-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate both Mongoose and Zod schemas from a single source of truth. Solve DRY principle in full-stack applications.",
   "main": "index.js",
   "type": "module",
