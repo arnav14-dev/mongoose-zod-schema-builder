@@ -312,7 +312,7 @@ export const createZodSchema = (schemaDefinition, options = {}) => {
                             if (fieldName.toLowerCase().includes('email') || regexStr.includes('@')) {
                                 message = `${fieldName} must be a valid email address`;
                             } else if (fieldName.toLowerCase().includes('password') || regexStr.includes('(?=.*\\d)')) {
-                                message = `${fieldName} must contain at least one lowercase letter, one uppercase letter, one number, and one special character (multiple special characters and numbers are allowed)`;
+                                message = `${fieldName} must contain at least one lowercase letter, one uppercase letter, one number, and one special character.`;
                             } else if (fieldName.toLowerCase().includes('phone') || regexStr.includes('\\d')) {
                                 message = `${fieldName} must be a valid phone number`;
                             } else if (fieldName.toLowerCase().includes('url') || regexStr.includes('http')) {
@@ -348,8 +348,8 @@ export const createZodSchema = (schemaDefinition, options = {}) => {
         if (fieldName.toLowerCase().includes('password') && 
             fieldProps.regex === undefined && 
             zodValidator._def.type === 'string') {
-            const defaultPasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-            const message = `${fieldName} must contain at least one lowercase letter, one uppercase letter, one number, and one special character (multiple special characters and numbers are allowed)`;
+            const defaultPasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
+            const message = `${fieldName} must contain at least one lowercase letter, one uppercase letter, one number, and one special character (@$!%*?&#).`;
             zodValidator = zodValidator.regex(defaultPasswordRegex, { message });
         }
         
