@@ -1,5 +1,7 @@
 # Mongoose-Zod Schema Builder
 
+[![npm version](https://img.shields.io/npm/v/mongoose-zod-schema-builder?color=0f2fb5)](https://www.npmjs.com/package/mongoose-zod-schema-builder) [![npm downloads](https://img.shields.io/npm/dt/mongoose-zod-schema-builder)](https://www.npmjs.com/package/mongoose-zod-schema-builder) [![license: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A powerful Node.js package that solves the DRY (Don't Repeat Yourself) problem in full-stack applications by generating both Mongoose and Zod schemas from a single source of truth.
 
 ## The Problem This Solves
